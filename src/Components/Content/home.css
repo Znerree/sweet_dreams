@@ -1,0 +1,59 @@
+
+
+.home-container{
+    background-image: url('/src/Components/assets/images/cake_bg.png');
+    background-position: right 0;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    background-color: #F8C7E1;
+    margin-top: 8.5%;
+    height: 700px;
+}
+
+.shop-container{
+    background-image: url('/src/Components/assets/images/bg\ shop.png');
+    background-position: right 0;
+    position: fixed;
+    width: 100%;
+    background-color: #F8C7E1;
+    margin-top: 8.5%;
+    height: 700px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    margin: 0 10px;
+    position: absolute;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     margin: auto;
+  }
+
+  .about-container{
+    background-image: url('/src/Components/assets/images/bgabout.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right 30px;
+    position: fixed;
+    width: 100%;
+    background-color: #F8C7E1;
+    margin-top: 8.5%;
+    height: 700px;
+}
+.contact-container{
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right 30px;
+    position: fixed;
+    width: 100%;
+    background-color: #F8C7E1;
+    margin-top: 8.5%;
+    height: 700px;
+}

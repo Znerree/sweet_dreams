@@ -1,8 +1,13 @@
-.business{
-  display: flex;
-  justify-content: center;
+
+.header{
+  position: fixed;
+  top: 30px;
+  left: 0;
+  height: 50px;
+  padding: 10px;
   align-items: center;
-  float: left;
+  display: flex;
+  margin-left: 50px;
 }
 
 @font-face {
@@ -10,6 +15,17 @@
     src: url('../assets/fonts/Allura-Regular.ttf') format('truetype');
   }
 
-.navigators{
-  display: flex;
-}
+  .buttons {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    margin-right: 70px;
+  }
+
+  h3.selected{
+    background-color: #F8C7E1;
+    padding: 10px;
+    border-radius: 20px;
+  }
